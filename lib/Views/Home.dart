@@ -3,7 +3,6 @@ import 'package:dash_chat_2/dash_chat_2.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:kalorist_mvp/consts.dart';
 
 class Home extends StatefulWidget {
   String id;
