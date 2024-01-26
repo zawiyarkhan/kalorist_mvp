@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "894159845382",
+    "project_id": "kalorist-v1",
+    "storage_bucket": "kalorist-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894159845382:android:c36eba7eee5c22713feb87",
+        "android_client_info": {
+          "package_name": "com.example.kalorist_mvp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHUxnj0AWLzRxievKY3GNaJJvQJn6pd-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
