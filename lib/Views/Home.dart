@@ -2,6 +2,7 @@ import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 import 'package:dash_chat_2/dash_chat_2.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:kalorist_mvp/consts.dart';
 
 class Home extends StatefulWidget {
@@ -15,7 +16,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final _openAI = OpenAI.instance.build(
-      token: OPEN_AI_KEY,
+      token: dotenv.env["OPEN_AI_KEY"],
       baseOption: HttpSetup(
         receiveTimeout: Duration(seconds: 5),
       ),
