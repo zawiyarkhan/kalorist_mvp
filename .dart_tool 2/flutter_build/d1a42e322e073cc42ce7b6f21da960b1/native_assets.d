@@ -1,0 +1,1 @@
+ /Users/zawiyar/Desktop/Kalorist\ MVP/kalorist_mvp/.dart_tool/flutter_build/d1a42e322e073cc42ce7b6f21da960b1/native_assets.yaml: 
